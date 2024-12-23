@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de la Vie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="startBtn" class="btn btn-blue">
+                <span class="icon">▶</span>
+                <span class="btn-text">Démarrer</span>
+            </button>
+            
+            <button id="speedBtn" class="btn btn-green">
+                <span class="icon">⏩</span>
+                <span class="btn-text">Accélérer</span>
+            </button>
+
+            <button id="resetBtn" class="btn btn-red">
+                <span class="icon">🗑</span>
+                <span class="btn-text">Réinitialiser</span>
+            </button>
+
+            <button id="libraryBtn" class="btn btn-purple">
+                <span class="icon">📚</span>
+                <span class="btn-text">Bibliothèque</span>
+            </button>
+
+            <div class="speed-control">
+                <span>Vitesse:</span>
+                <select id="speedSelect">
+                    <option value="500">Lent</option>
+                    <option value="100">Normal</option>
+                    <option value="50">Rapide</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="patterns" class="patterns hidden">
+            <!-- Les boutons des motifs seront ajoutés dynamiquement par JavaScript -->
+        </div>
+
+        <div class="grid-container">
+            <div id="patternIndicator" class="pattern-indicator hidden">
+                <span id="patternName"></span>
+                <button id="cancelPattern">✕</button>
+            </div>
+            <div id="grid" class="grid">
+                <!-- La grille sera générée par JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="patterns.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
