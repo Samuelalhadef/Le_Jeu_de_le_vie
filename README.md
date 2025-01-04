@@ -3,7 +3,7 @@
 
 ![Head](https://github.com/user-attachments/assets/f1069d2d-3e9d-4c37-adef-8f1c5dfbbd34)
 Une implémentation interactive du célèbre automate cellulaire de Conway, développée en JavaScript vanilla avec une interface moderne et intuitive.
-[Démonstration en direct](https://votre-demo-url.com) 
+
 </div>
 
 ## ✨ Fonctionnalités
@@ -77,13 +77,13 @@ game-of-life/
 - La communauté JavaScript pour leurs retours constructifs
 
 ## 📫 Contact
-Votre Nom - [@votre_twitter](https://twitter.com/votre_username)
-Lien du projet: [https://github.com/votre-username/game-of-life](https://github.com/votre-username/game-of-life)
+
+Lien du projet: [https://github.com/votre-username/game-of-life](https://github.com/Samuelalhadef/Le_Jeu_de_le_vie)
 
 ---
 <div align="center">
   
-Fait avec ❤️ par [Votre Nom](https://github.com/votre-username/)
+Fait avec ❤️ par [Samuel Alhadef](https://github.com/votre-username/)
 </div>
 
-Est-ce que vous souhaitez que je modifie certaines sections ou que j'ajoute d'autres informations ?
+
